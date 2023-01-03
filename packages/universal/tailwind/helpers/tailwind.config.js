@@ -17,6 +17,7 @@ module.exports = {
         'screen-3xl': '1680px',
       },
       colors: {
+        ...colors,
         indigo: colors.indigo,
       },
     },

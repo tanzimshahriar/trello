@@ -1,15 +1,8 @@
-const colors = require('tailwindcss/colors')
-
-delete colors['lightBlue']
-delete colors['warmGray']
-delete colors['trueGray']
-delete colors['coolGray']
-delete colors['blueGray']
+import tailwindColors from 'tailwindcss/colors'
 
 // @template Configure your colors scheme here.
-module.exports = {
-  colors: {
-    ...colors,
+export const colors = {
+    ...tailwindColors,
     indigo: {
       50: '#eef2ff',
       100: '#e0e7ff',
@@ -22,5 +15,5 @@ module.exports = {
       800: '#3730a3',
       900: '#312e81',
     },
-  },
-}
+  }
+

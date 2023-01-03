@@ -1,3 +1,4 @@
+import React from 'react'
 import { FunctionComponent } from 'react'
 import { StyleProp } from 'react-native'
 import { create, TwConfig } from 'twrnc'
